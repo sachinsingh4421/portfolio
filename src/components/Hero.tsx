@@ -76,7 +76,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary-gradient opacity-20 rounded-2xl blur-2xl transform rotate-6"></div>
               <img
-                src={profileImage}
+                src="photosachin.jpeg"
                 alt="Sachin Singh - Full-Stack Developer"
                 className="relative w-80 h-80 object-cover rounded-2xl shadow-2xl border border-border/50"
               />
