@@ -4,10 +4,24 @@ import { GraduationCap, Award, Calendar, MapPin } from "lucide-react";
 
 const Education = () => {
   const certifications = [
-    "Spring Boot and Microservices – Udemy",
-    "Machine Learning Specialization – Coursera",
-    "SQL for Data Science – DataCamp",
-    "Git & GitHub Essentials – LinkedIn Learning"
+    <span key="sql">
+      <strong>SQL (Basic) Certificate</strong> – HackerRank{' '}
+      <a href="https://www.hackerrank.com/certificates/fa9a3fd9f45c" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+        [View]
+      </a>
+    </span>,
+    <span key="js">
+      <strong>JavaScript (Basic) Certificate</strong> – HackerRank{' '}
+      <a href="https://www.hackerrank.com/certificates/edc3e538c00a" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+        [View]
+      </a>
+    </span>,
+    <span key="python">
+      <strong>Python Developer Internship</strong> – CodeClause{' '}
+      <a href="https://drive.google.com/file/d/1rVmhq7o94DuZ5nF9F3SxlzOuJBX0Abt1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+        [View]
+      </a>
+    </span>
   ];
 
   const activities = [
